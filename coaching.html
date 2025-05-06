@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GST Coach | Coaching</title>
+  <meta charset="UTF-8">
+  <title>Coaching - GST Coach</title>
   <style>
     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e0f7f9;
       margin: 0;
-      font-family: 'Georgia', serif;
-      background-color: #e3f2f7;
-      color: #333;
-    }
-    header, footer {
-      background-color: #006d6a;
-      color: white;
+      padding: 0;
       text-align: center;
-      padding: 1rem 0;
+    }
+    header {
+      background-color: #006d67;
+      padding: 20px;
+      color: white;
     }
     nav a {
       margin: 0 15px;
@@ -23,46 +22,44 @@
       text-decoration: none;
       font-weight: bold;
     }
-    .hero {
-      background: url('couselingpic.jpg') no-repeat center center/cover;
-      height: 75vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+    .content {
+      padding: 40px 20px;
+    }
+    .content h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #003c3c;
+    }
+    .content ul {
+      list-style: none;
+      padding: 0;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 20px;
+      line-height: 1.8;
+    }
+    .content ul li::before {
+      content: "✓ ";
+      color: #006d67;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .image-box {
+      margin-top: 30px;
+    }
+    .image-box img {
+      width: 90%;
+      max-width: 700px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    footer {
+      background-color: #006d67;
       color: white;
-      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
-      font-size: 2.5rem;
-      padding: 2rem;
-    }
-    section {
-      padding: 2rem;
-      text-align: center;
-    }
-    h2 {
-      font-family: 'Georgia', serif;
-      font-size: 2rem;
-      color: #004c4a;
-    }
-    p {
-      font-size: 1.1rem;
-      max-width: 800px;
-      margin: 1rem auto;
-    }
-    .cta {
-      margin-top: 2rem;
-    }
-    .cta a {
-      background-color: #004c4a;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: background-color 0.3s;
-    }
-    .cta a:hover {
-      background-color: #008080;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -77,21 +74,28 @@
     </nav>
   </header>
 
-  <div class="hero">
-    Transforming Marriages Through Coaching
+  <div class="content">
+    <h1>Transform Your Relationship</h1>
+    <p style="max-width: 800px; margin: 0 auto; font-size: 18px;">
+      At GST Coach, we work with couples from all walks of life to restore connection, build resilience, and create joy-filled relationships. Whether you're dating, newly married, or navigating decades together, our coaching is practical, faith-informed, and deeply encouraging.
+    </p>
+
+    <ul>
+      <li>Rebuilding Communication that Connects</li>
+      <li>Effective Conflict Resolution That Brings You Closer</li>
+      <li>Restoring Intimacy—Emotional, Physical, and Spiritual</li>
+      <li>Creating a Culture of Trust and Transparency</li>
+      <li>Thriving Together for a Lifetime</li>
+      <li>And so much more, tailored to your unique story</li>
+    </ul>
+
+    <div class="image-box">
+      <img src="counselingpic.jpg" alt="Happy couple in counseling">
+    </div>
   </div>
 
-  <section>
-    <h2>Practical Coaching That Sparks Real Growth</h2>
-    <p>Whether you're newly married, parenting through chaos, or feeling emotionally distant, GST Coach offers personalized coaching rooted in proven strategies and biblical wisdom. Sessions are conversational, uplifting, and tailored to your journey.</p>
-    <p>From conflict resolution to rebuilding trust and intimacy, each step we take is filled with compassion and practical tools to help you thrive together.</p>
-    <div class="cta">
-      <a href="mailto:Mike@gstcoach.com">Book a Free Consultation</a>
-    </div>
-  </section>
-
   <footer>
-    <p>&copy; 2025 GST Coach | "Let all that you do be done in love." – 1 Corinthians 16:14</p>
+    © 2025 GST Coach | "Let all that you do be done in love." – 1 Corinthians 16:14
   </footer>
 </body>
 </html>
