@@ -11,19 +11,6 @@
       font-family: Arial, sans-serif;
     }
 
-    .hero {
-      background-image: url('beachpic.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 2rem;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    }
-
     nav {
       background-color: #006a68;
       display: flex;
@@ -39,15 +26,38 @@
       font-size: 1.1rem;
     }
 
+    .hero {
+      background-image: url('beachpic.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0.5rem 0;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+      margin: 0.25rem 0;
+      font-weight: normal;
+    }
+
     footer {
       background-color: #006a68;
       color: white;
       text-align: center;
       padding: 1rem 0;
-    }
-
-    h1 {
-      margin: 0;
+      font-size: 0.9rem;
     }
   </style>
 </head>
@@ -60,6 +70,8 @@
   </nav>
 
   <div class="hero">
+    <h1>GST Coach</h1>
+    <h2>Mike Gmetro – Marriage & Relationship Coaching</h2>
     <h1>Strengthening Relationships Together</h1>
   </div>
 
@@ -68,4 +80,3 @@
   </footer>
 </body>
 </html>
-
