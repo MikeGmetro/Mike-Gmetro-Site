@@ -1,70 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Coaching | GST Coach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GST Coach | Coaching</title>
   <style>
-    body, html {
+    body {
       margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-color: #e0f7fa;
+      font-family: 'Georgia', serif;
+      background-color: #e3f2f7;
+      color: #333;
     }
-    nav {
-      background-color: #006a68;
-      display: flex;
-      justify-content: center;
+    header, footer {
+      background-color: #006d6a;
+      color: white;
+      text-align: center;
       padding: 1rem 0;
     }
     nav a {
+      margin: 0 15px;
       color: white;
       text-decoration: none;
-      margin: 0 15px;
       font-weight: bold;
-      font-size: 1.1rem;
     }
-    .container {
+    .hero {
+      background: url('couselingpic.jpg') no-repeat center center/cover;
+      height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      font-size: 2.5rem;
+      padding: 2rem;
+    }
+    section {
       padding: 2rem;
       text-align: center;
     }
-    .container h2 {
-      color: #006a68;
+    h2 {
+      font-family: 'Georgia', serif;
+      font-size: 2rem;
+      color: #004c4a;
     }
-    footer {
-      background-color: #006a68;
+    p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 1rem auto;
+    }
+    .cta {
+      margin-top: 2rem;
+    }
+    .cta a {
+      background-color: #004c4a;
       color: white;
-      text-align: center;
-      padding: 1rem 0;
-      font-size: 0.9rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+    }
+    .cta a:hover {
+      background-color: #008080;
     }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="coaching.html">Coaching</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <header>
+    <h1>GST Coach</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="coaching.html">Coaching</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <div class="container">
-    <h1>Coaching Services</h1>
-    <h2>Helping Couples Thrive at Every Stage</h2>
-    <p>Whether you’re dating, engaged, or married for decades, GST Coach helps you build lasting connection through:</p>
-    <ul>
-      <li>Effective Communication Techniques</li>
-      <li>Faith-Based Conflict Resolution</li>
-      <li>Rebuilding Trust and Intimacy</li>
-      <li>Practical Weekly Challenges</li>
-      <li>Zoom or In-Person Coaching Available</li>
-    </ul>
-    <p>Let’s build your relationship stronger, together.</p>
+  <div class="hero">
+    Transforming Marriages Through Coaching
   </div>
 
+  <section>
+    <h2>Practical Coaching That Sparks Real Growth</h2>
+    <p>Whether you're newly married, parenting through chaos, or feeling emotionally distant, GST Coach offers personalized coaching rooted in proven strategies and biblical wisdom. Sessions are conversational, uplifting, and tailored to your journey.</p>
+    <p>From conflict resolution to rebuilding trust and intimacy, each step we take is filled with compassion and practical tools to help you thrive together.</p>
+    <div class="cta">
+      <a href="mailto:Mike@gstcoach.com">Book a Free Consultation</a>
+    </div>
+  </section>
+
   <footer>
-    <p>© 2025 GST Coach | "Let all that you do be done in love." – 1 Corinthians 16:14</p>
+    <p>&copy; 2025 GST Coach | "Let all that you do be done in love." – 1 Corinthians 16:14</p>
   </footer>
 </body>
 </html>
